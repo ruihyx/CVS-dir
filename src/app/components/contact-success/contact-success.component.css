@@ -1,0 +1,18 @@
+.container{
+    padding-left: 15%;
+    margin-top: 50px;
+    padding-right: 15%;
+   
+}
+.thank{
+    color:rgb(41, 202, 41);
+    padding-bottom: 30px;
+
+}
+p{
+    font-size: 15px;
+}
+
+.big{
+  font-weight: bolder;
+}

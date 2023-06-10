@@ -1,0 +1,30 @@
+<div class="login-container">
+    <form class="form" [formGroup]="form" (ngSubmit)="onsubmit()">
+      <h1 class="title">Contact Us</h1>
+      <mat-form-field appearance="fill">
+        
+        <mat-label>Name</mat-label>
+        <input type="name" matInput formControlName="name"  >
+    
+        <mat-error *ngIf="name?.touched">
+          Name is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+  
+      <mat-form-field appearance="fill"> 
+        <mat-label>Message</mat-label>     
+        <input type="message" matInput formControlName="message" >
+        <mat-error *ngIf="!message?.valid && message?.touched">
+            The message should have at least 10 characters
+          </mat-error>
+        <mat-error *ngIf="message?.touched">
+          Password is <strong>required</strong>
+        </mat-error>
+        
+      </mat-form-field>
+      
+          <button mat-raised-button color="warn" type="submit">
+              Send Message
+          </button>
+    </form>
+</div>

@@ -1,0 +1,40 @@
+.dir{
+   padding-left: 15%;
+   margin-top: 50px;
+
+}
+p {
+    font-family: Lato;
+  }
+  
+  .container{
+    background-color: rgb(225, 222, 217);
+    margin-bottom: 20px;
+    border-radius: 9px;
+    width: 70%;
+  }
+  
+  .userinfor{
+    padding-left: 4px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  img{
+    width: 50px;
+  }
+  .name{
+    padding-left: 3px;
+  }
+  
+.left{
+    padding: 20px;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
